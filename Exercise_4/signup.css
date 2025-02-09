@@ -141,6 +141,11 @@ body {
   
 }
 
+.desktop {
+  display: none;
+}
+
+
 .container {
   display: flex;
   flex-direction: column;
@@ -176,7 +181,7 @@ p {
   width: 60%;
   height: 800px;
   background-color: white;
-  padding: 5px;
+  /* padding: 5px; */
   padding-left: 10px;
   margin-left: 70px;
   border-radius: 6px;

@@ -5,10 +5,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-/* Page background */
-/* body {
-    background: #f8f9fa;
-} */
+
 /* Navbar Styling */
 .navbar {
     display: flex;
