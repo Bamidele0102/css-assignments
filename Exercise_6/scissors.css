@@ -1,0 +1,115 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Page background */
+/* body {
+    background: #f8f9fa;
+} */
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    width: 80%;
+    margin: auto;
+}
+.nav__container{
+      background: linear-gradient(to right, #f8f9fa, #f0f0eb);
+     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0066ff;
+}
+.logo i {
+    font-size: 22px;
+    margin-right: 8px;
+}
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-links li a:hover {
+    color: #0066ff;
+}
+/* Fixed Blue Color for "My URLs" */
+.fixed-blue a {
+    color: #0066ff !important;
+    font-weight: bold;
+}
+/* Dropdown Styling */
+.dropdown a {
+    display: flex;
+    align-items: center;
+}
+.dropdown i {
+    font-size: 12px;
+    margin-left: 5px;
+}
+/* Authentication Buttons */
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.login {
+    text-decoration: none;
+    color: #0066ff;
+    font-size: 16px;
+}
+.signup {
+    text-decoration: none;
+    background: #0066ff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.signup:hover {
+    background: #004bb7;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .auth-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* hero sections */
+
+.hero_container {
+    width: 1440px;
+    height: 1024px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
